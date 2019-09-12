@@ -1,0 +1,18 @@
+@import url("../App.css");
+
+.footline {
+  font-family: var(--bullet-font);
+  display: flex;
+}
+
+.contact {
+  margin: 0px 10px;
+  text-align: right;
+  flex: 1 1 auto;
+  color: gray;
+}
+.footer-icon-row {
+  margin: 0px;
+  text-align: left;
+  flex: 1 0 auto;
+}

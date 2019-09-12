@@ -1,0 +1,66 @@
+:root {
+  --header-font: "Impact", "Arial Black", Helvetica, sans-serif;
+  --subheader-font: "Helvetica", Helvetica, sans-serif;
+  --bullet-font: "Georgia", Georgia;
+}
+
+.App {
+  text-align: center;
+  margin: 10px auto;
+  min-width: 460px;
+  max-width: 840px;
+  padding: 0px 20px;
+}
+
+.HeaderTitle {
+  font-family: var(--header-font);
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.thick-divide {
+  border: 2px solid lightgray;
+}
+
+.thin-divide {
+  border: 1px solid lightgray;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.paragraph {
+  margin-top: 10px;
+  font-family: var(--bullet-font);
+  text-align: left;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  font-family: var(--bullet-font);
+  margin-left: 40px;
+  line-height: 1.5;
+}
+
+.Icon {
+  margin: 0px 5px;
+  color: gray;
+}
+
+.Icon:hover {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}

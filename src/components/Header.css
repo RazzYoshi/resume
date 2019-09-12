@@ -1,0 +1,19 @@
+@import url("../App.css");
+
+.headline {
+  font-family: var(--subheader-font);
+  font-size: 30px;
+  display: flex;
+  margin: 0px;
+  line-height: 1;
+}
+.header-title {
+  margin: 0px;
+  text-align: left;
+  flex: 1 1 auto;
+}
+.header-icon-row {
+  margin: 0px;
+  text-align: right;
+  flex: 1 0 auto;
+}

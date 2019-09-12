@@ -1,0 +1,9 @@
+@import url("../App.css");
+
+.Abstract {
+  text-align: left;
+}
+.abstract-title {
+  font-family: var(--bullet-font);
+  font-style: italic;
+}
