@@ -54,8 +54,37 @@ function App() {
       </Section>
       <Section title="Experience">
         <Subsection
+          title="Ripcord, Hayward, CA"
+          subtitle="Software Engineer • 2019 — present"
+        >
+          <ul>
+            <li>
+              Led multi-sprint efforts to modernize the company’s core product - a content management website, including porting the
+              continuous integration system from a mixture of CircleCI and TravisCI to a private Jenkins server, optimizing the code with new
+              ES2020 tools like null coalescing and dynamic imports, spearheading the conversion of the presentation layer into hooks for
+              easier maintenance, consolidating the fragmented backend calls into a unified ReduxSaga data layer, extrapolating primary UI
+              components like tables and modals into a reusable component library, adding new modern UX like drag and drop and
+              keybindings, and consolidating within-product and between-product theming to allow for easier company branding
+            </li>
+            <li>
+              Spun up proof of concepts using Create-React-App to allow product to demo proposed new core functionality to customers,
+              including a “taxonomy dashboard” which replaced the traditional folder navigation of our content management system with
+              nested charts, and a self-serve administration console for configuring custom data schema
+            </li>
+            <li>
+              Designed and implemented core features for our image and document processing pipeline operations portal per customer
+              specifications, including auto scrolling to and pagination of document messages, printing, downloading, and linking of files, and
+              basic image editing like crop, rotate, and straighten
+            </li>
+            <li>
+              Worked with production and delivery teams to support processing of customer data and auditing of content by creating web-based searchable, 
+              filterable, and sortable content management systems, including a detailed table listing view, a graphical grid display view, and a file system tree view.
+            </li>
+          </ul>
+        </Subsection>
+        <Subsection
           title="Lattice Automation, Boston, MA"
-          subtitle="Software Engineer • 2018 — present"
+          subtitle="Software Engineer • 2018 — 2019"
         >
           <ul>
             <li>
