@@ -55,7 +55,7 @@ function App() {
       <Section title="Experience">
         <Subsection
           title="Ripcord, Hayward, CA"
-          subtitle="Software Engineer • 2019 — present"
+          subtitle="Software Engineer • 2019 — 2024"
         >
           <ul>
             <li>
@@ -79,6 +79,10 @@ function App() {
             <li>
               Worked with production and delivery teams to support processing of customer data and auditing of content by creating web-based searchable, 
               filterable, and sortable content management systems, including a detailed table listing view, a graphical grid display view, and a file system tree view.
+            </li>
+            <li>
+              Created an interface for users to upload documents and ask questions of them through Bard and GPT3.5, including the ability to save answers, provide
+              feedback, and organize questions and answers with links back to your uploaded documents
             </li>
           </ul>
         </Subsection>
