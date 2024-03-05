@@ -36,12 +36,12 @@ function App() {
       </Abstract>
       <Section title="Technical Tools">
         <EmphaticParagraph title="Experienced with">
-          PHP, CSS, HTML, Angular, Node, React, Redux, Git, SQL, Python, Bash,
-          Bootstrap, Semantic, and AWS
+          React, Typescript, Redux, Git, Node, MUI, CSS, Jenkins, HTML, Angular, SQL, Python, Bash, NGINX, REST,
+          Playwright, Luxon, Lingui, RSQL, Cron, Formik, Keycloak, Webpack, PdfJS, Storybook, ESLint, Jest, GraphQL, CI tools, and YAML
         </EmphaticParagraph>
         <EmphaticParagraph title="Familiar with">
-          C, C#, SVN, Java, Jenkins, Conda, Docker, Mongo, CI tools, Serverless,
-          4D, Google Applications, YAML, and Makefiles
+          PHP, Bootstrap, Semantic, C, C#, SVN, Java, Jenkins, Conda, Docker, Mongo, CI tools, Serverless,
+          4D, Google Applications, YAML, AWS, and Makefiles
         </EmphaticParagraph>
       </Section>
       <Section title="About Me">
@@ -77,7 +77,7 @@ function App() {
               basic image editing like crop, rotate, and straighten
             </li>
             <li>
-              Worked with production and delivery teams to support processing of customer data and auditing of content by creating web-based searchable, 
+              Worked with production and delivery teams to support processing of customer data and auditing of content by creating web-based searchable,
               filterable, and sortable content management systems, including a detailed table listing view, a graphical grid display view, and a file system tree view.
             </li>
             <li>
