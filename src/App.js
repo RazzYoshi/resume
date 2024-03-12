@@ -19,37 +19,30 @@ function App() {
       <Abstract title="Object-Oriented Design / Continuous Integration / Computational Modeling">
         <ul>
           <li>
-            <b>Quality-minded software engineer</b> dedicated to creating code
-            that is testable, scalable, maintainable, and modular.
+            <b>Quality-minded software engineer</b> dedicated to creating code that is testable, scalable, maintainable, and modular.
           </li>
           <li>
-            <b>Avid learner</b> with extensive experience documenting, sharing,
-            and presenting new discoveries, best practices, and emerging
-            theories.
+            <b>Avid learner</b> with extensive experience documenting, sharing, and presenting new discoveries, best practices, and emerging theories.
           </li>
           <li>
-            <b>Known for tenacity in problem solving</b> - able to distill
-            solutions from an extensive liberal arts background of technology,
-            biology, and social sciences.
+            <b>Known for tenacity in problem solving</b> - able to distill solutions from an extensive liberal arts background of technology, biology, and social sciences.
           </li>
         </ul>
       </Abstract>
       <Section title="Technical Tools">
+        <EmphaticParagraph title="Expert with">
+          React, Typescript, Redux, Git, Node.js, MaterialUI, CSS, HTML, Playwright, Luxon, Lingui, Storybook, ESLint, and Jest
+        </EmphaticParagraph>
         <EmphaticParagraph title="Experienced with">
-          React, Typescript, Redux, Git, Node, MUI, CSS, Jenkins, HTML, Angular, SQL, Python, Bash, NGINX, REST,
-          Playwright, Luxon, Lingui, RSQL, Cron, Formik, Keycloak, Webpack, PdfJS, Storybook, ESLint, Jest, GraphQL, CI tools, and YAML
+          AngularJS, SQL, Python, Bash, NGINX, REST, RSQL, Cron, Formik, Keycloak, Webpack, PdfJS, GraphQL, CI tools, YAML, Helm, Bard, GPT, Docker, Serverless, Octopus, ELK stack, Monaco Editor, and Amazon Web Services
         </EmphaticParagraph>
         <EmphaticParagraph title="Familiar with">
-          PHP, Bootstrap, Semantic, C, C#, SVN, Java, Jenkins, Conda, Docker, Mongo, CI tools, Serverless,
-          4D, Google Applications, YAML, AWS, and Makefiles
+          PHP, Bootstrap, SemanticUI, C, C#, .NET, SVN, Java, Jenkins, Conda, Docker, MongoDB, 4D, Google Applications, YAML files, Enzyme, SciPy, PyGeM, ZendServer, and Makefiles
         </EmphaticParagraph>
       </Section>
       <Section title="About Me">
         <div className="paragraph">
-          I am driven to unite things that don't naturally go together and craft
-          things that are greater than the sum of their parts. When not coding,
-          I enjoy writing realistic fiction stories, composing orchestral music,
-          and making charts and diagrams.
+          I am driven to unite things that don't naturally go together and craft things that are greater than the sum of their parts. When not coding, I enjoy writing realistic fiction stories, composing orchestral music, and making charts and diagrams.
         </div>
       </Section>
       <Section title="Experience">
@@ -59,30 +52,25 @@ function App() {
         >
           <ul>
             <li>
-              Led multi-sprint efforts to modernize the company’s core product - a content management website, including porting the
-              continuous integration system from a mixture of CircleCI and TravisCI to a private Jenkins server, optimizing the code with new
-              ES2020 tools like null coalescing and dynamic imports, spearheading the conversion of the presentation layer into hooks for
-              easier maintenance, consolidating the fragmented backend calls into a unified ReduxSaga data layer, extrapolating primary UI
-              components like tables and modals into a reusable component library, adding new modern UX like drag and drop and
-              keybindings, and consolidating within-product and between-product theming to allow for easier company branding
+              Unlocked an international market several times the size of our domestic one by localizing our content management and user/config management products with Lingui and MomentJS/Luxon, starting with the Japanese, Chinese, and French locales
             </li>
             <li>
-              Spun up proof of concepts using Create-React-App to allow product to demo proposed new core functionality to customers,
-              including a “taxonomy dashboard” which replaced the traditional folder navigation of our content management system with
-              nested charts, and a self-serve administration console for configuring custom data schema
+              Distilled a freemium consumer product tailored towards AI-assisted document investigation from our B2B content management offering that includes Q&A using Bard and GPT3.5, notes and citation organization, and data storage and transfer
             </li>
             <li>
-              Designed and implemented core features for our image and document processing pipeline operations portal per customer
-              specifications, including auto scrolling to and pagination of document messages, printing, downloading, and linking of files, and
-              basic image editing like crop, rotate, and straighten
+              Drove doubling of ARR in consecutive years by prototyping, developing, and demoing products and features directly requested by returning and prospective customers, including a user and configuration management system, multiple modes for document management, advanced auditing and filtering UX, and a workflow and interface for editing and validating scanned images
             </li>
             <li>
-              Worked with production and delivery teams to support processing of customer data and auditing of content by creating web-based searchable,
-              filterable, and sortable content management systems, including a detailed table listing view, a graphical grid display view, and a file system tree view.
+              Doubled sprint velocity by modernizing codebase – consolidated fragmented backend calls into a unified ReduxSaga data layer, converted the presentation layer into hooks for easier maintenance, extracted UI components into a reusable component library, unified theming files and resources with a StyledComponents theme provider, and ported CI to a private Jenkins server that could have more customized scripting, allowing us to run automated code quality and integration testing checks on all pull requests
             </li>
             <li>
-              Created an interface for users to upload documents and ask questions of them through Bard and GPT3.5, including the ability to save answers, provide
-              feedback, and organize questions and answers with links back to your uploaded documents
+              Halved product/design review time by launching a Storybook-based sandbox for frontend components, themes, and icons that was deployed as an application alongside our product and could be pinned to different feature branches per environment
+            </li>
+            <li>
+              Cut days of overhead from every sprint by designing and launching a frontend for our development environment manager that could quickly spin up applications, update versions and scale pods for services, and schedule sleep, wake, and deletion times
+            </li>
+            <li>
+              Developed feature requests curated from meetings with delivery and our Fuji Business partners – like drag and drop file and image upload and reordering, a file tree view, scanning workflow keybindings, image zoom and resizing, and a sophisticated session-based read-write locking mechanism to support key Japanese customers like MUFG (Japan’s largest bank)
             </li>
           </ul>
         </Subsection>
@@ -92,32 +80,13 @@ function App() {
         >
           <ul>
             <li>
-              Spearheaded the revamp of the Loom synthetic biology web suite
-              into a more advanced DNA assembly design tool by creating a primer
-              design and visualization integration that used Primer3 to generate
-              PCR primer pairs, and ReactJS to dynamically find and display
-              binding sites
+              Refined the Loom synthetic biology web suite into a marketable product for DNA assembly with a primer designer and visualizer that used Primer3 to generate PCR primer pairs, and Javascript to dynamically find and display binding sites; parsers for proprietary DNA sequence formats; linear and circular sequence viewers to encourage intuitive feature discovery; and a ReactJS/SCSS-powered, click/keyboard interactable, and themable UI for file uploading and sequence viewing
             </li>
             <li>
-              Collected, documented, and implemented features for the Loom
-              synthetic biology suite from clients and Alpha-testers, notably
-              adding parsers for proprietary DNA sequence formats, unifying the
-              sidebar and user pop-up notification systems into a holistic theme
-              controlled by centralized CSS files and reusable Javascript
-              components, and improving click and keyboard interactions
-              throughout the header, file navigator, and sequence viewers to
-              encourage intuitive features discovery
+              Contributed to the synthetic biology research community by creating the open source Javascript DNA sequence inspector library SeqViz and a free web implementation currently linked on the iGEM website for users to explore the BioBricks registry
             </li>
             <li>
-              Created the open source Javascript DNA sequence inspector library
-              SeqViz and a free web implementation currently linked on the iGEM
-              website for users to explore the BioBricks registry
-            </li>
-            <li>
-              Improved time to delivery for custom development contracts by
-              packaging many of Lattice’s sequence editing and assembly design
-              services as Python packages and serving them as API endpoints
-              through AWS with Serverless
+              Improved time to delivery for custom development contracts by packaging many of Lattice’s sequence editing and assembly design services as Python packages and serving them as API endpoints through AWS with Serverless
             </li>
           </ul>
         </Subsection>
@@ -126,29 +95,26 @@ function App() {
           subtitle="Software Engineer • 2016 — 2018"
         >
           <ul>
-            <li>Piloted Agile workflow using JIRA Scrum</li>
             <li>
-              Documented and developed market analyses and reporting software
-              for hospitals
+              Enabled consolidated chat support across six web products by integrating third-party chat widgets across three stacks – 4D, PHP, and C#/.NET, using API wrappers written in PHP and frontend scripts written in Angular, Node, and JQuery
             </li>
             <li>
-              Integrated third party chat and support service into a user
-              management system and products spanning the 4D, PHP/Javascript,
-              and c#/.NET stacks
+              Developed and maintained a user management system that housed over 300,000 users and 1,400 hospital facilities and bolstered security by implementing frontend, backend, and database-level data validation for form inputs and data imports
             </li>
             <li>
-              Wrote API wrappers in PHP and used the ZendServer job queue to
-              keep data for over 30,000 users and 1,400 hospital facilities
-              synced across two databases and a third party service
+              Revitalized old PHP and Javascript projects by converting them from the lesser known SVN version control to Git
             </li>
             <li>
-              Implemented frontend Javascript, backend PHP, and database SQL
-              data validation for form input and mass data imports
+              Automated deployment process by creating scripts for pulling tags and automatically setting environment variables in Jenkins
             </li>
             <li>
-              Developed a user management system for storing PII, managing
-              access and permissions to various other company products, and
-              monitoring user activity and sessions
+              Established a monthly release cycle by deploying and releasing version controlled products through Jenkins and Octopus
+            </li>
+            <li>
+              Ensured company longevity and project maintainability by rewriting core product code in the outdated 4D stack in C#/.NET
+            </li>
+            <li>
+              Enabled smooth delivery team project administration by developing a user management system for storing PII, managing access and permissions to various other company products, and monitoring user activity and sessions
             </li>
           </ul>
         </Subsection>
@@ -158,39 +124,22 @@ function App() {
         >
           <ul>
             <li>
-              Drove conversion of the platform’s monolithic code base to
-              domain-centric modules by piloting binary-compiled packaging with
-              Conda and container-based cloud deployment to Kubernetes with
-              Docker
+              Increased onboarding speed by converting the platform’s monolithic code base to domain-centric modules in Docker containers
             </li>
             <li>
-              Reduced XSS attack surface by implementing backend data validation
-              for the account creation process
+              Reduced XSS attack surface by implementing backend data validation for the account creation process
             </li>
             <li>
-              Coordinated with Product and Design to standardized dashboard
-              error messaging with Jade
+              Reduced engineering on-call load with Graphite visualizations of service health metrics and Sensu alerts for test failures
             </li>
             <li>
-              Spearheaded technical adherence to a unified company image with a
-              custom linter in Bash for style formatting
+              Spearheaded technical adherence to a unified company image with a custom linter in Bash for style formatting
             </li>
             <li>
-              Reduced pressure on customer support and improved bug
-              triangulation by setting up error logging with Twisted that
-              allowed engineers to find issues before clients did, and reduced
-              noise by filtering client-side errors from logs
+              Reduced pressure on customer support and improved bug triangulation by setting up error logging with Twisted that allowed engineers to find issues before clients did, and reduced noise by filtering client-side errors from logs
             </li>
             <li>
-              Assisted the 24/7 on-call engineer rotation by creating automatic
-              system and integration tests run in Docker containers that posts
-              health metrics to Graphite and trigger Sensu alerts when tests
-              fail in a certain pattern
-            </li>
-            <li>
-              Raised code coverage by 10-100%, set up code coverage tracking in
-              Coveralls and dependency checking in Gemnasium, and created
-              testing patterns for continuous integration with CircleCI
+              Raised code coverage by 10-100%, set up code coverage tracking in Coveralls and dependency checking in Gemnasium, and created testing patterns for continuous integration with CircleCI
             </li>
           </ul>
         </Subsection>
@@ -200,17 +149,13 @@ function App() {
         >
           <ul>
             <li>
-              Created and managed a FileMaker Pro database of over 10 years of
-              alumni contacts and volunteer activity
+              Enabled quick digital auditing by creating and managing a FileMaker Pro database of over 10 years of alumni contacts and volunteer activity
             </li>
             <li>
-              Redesigned a Wordpress and CommonSpot website to improve user
-              experience and ease of navigation by partitioning visual data,
-              creating collapsible tagged sections, and adding interactive menus
+              Redesigned a Wordpress and CommonSpot website to improve user experience and ease of navigation by partitioning visual data, creating collapsible tagged sections, and adding interactive menus
             </li>
             <li>
-              Developed scripts to transport sensitive online information to a
-              more secure server-bound database
+              Developed scripts to transport sensitive online information to a more secure server-bound database
             </li>
           </ul>
         </Subsection>
@@ -220,13 +165,10 @@ function App() {
         >
           <ul>
             <li>
-              Created and managed an SQL database to log scheduled events,
-              instrument maintenance, and work schedules for ushers
+              Doubled scheduling productivity by creating and managing an SQL database to log scheduled events, instrument maintenance, and work schedules for ushers
             </li>
             <li>
-              Doubled traffic to the department's Wordpress Digital Commons
-              website by optimizing ease of access and connection to social
-              media
+              Doubled traffic to the department's Wordpress Digital Commons website by optimizing ease of access and connection to social media
             </li>
           </ul>
         </Subsection>
@@ -236,17 +178,13 @@ function App() {
         >
           <ul>
             <li>
-              Surveyed, analyzed, and presented the benefits of college-museum
-              cooperation to the Board of Trustees
+              Secured the next several years of funding for college classes in the museum by surveying, analyzing, and presenting the benefits of college-museum cooperation to the Board of Trustees
             </li>
             <li>
-              Automated e-mailing, surveying, and data analyses of daily
-              activity and visitor feedback
+              Halfed the required front desk staff by automating e-mailing, surveying, and data analyses of daily activity and visitor feedback
             </li>
             <li>
-              Analyzed and presented Robert Indiana's Decade: Autoportraits
-              Vinalhaven Suite, 1980 as a medium of discussion for Lagrange's
-              Theorem
+              Analyzed and presented Robert Indiana's Decade: Autoportraits Vinalhaven Suite, 1980 as a medium of discussion for Lagrange's Theorem
             </li>
           </ul>
         </Subsection>
@@ -256,14 +194,10 @@ function App() {
         >
           <ul>
             <li>
-              Co-administrated the migration of the library website to an
-              off-campus server and upgrade from LibGuides v1 to WordPress and
-              LibGuides v2
+              Co-administrated the migration of the library website to an off-campus server and upgrade from LibGuides v1 to WordPress and LibGuides v2
             </li>
             <li>
-              Redesigned library website for more fluid navigation and more
-              intuitive organization using HTML tables and collapsible sections
-              and accordians and infoboxes done in WordPress markdown
+              Redesigned library website for more fluid navigation and more intuitive organization using HTML tables and collapsible sections and accordians and infoboxes done in WordPress markdown
             </li>
           </ul>
         </Subsection>
@@ -273,12 +207,10 @@ function App() {
         >
           <ul>
             <li>
-              Analyzed fairness heuristics among Major League Baseball umpires
-              over the past 10 years with regressions and ANOVAs
+              Analyzed fairness heuristics among Major League Baseball umpires over the past 10 years with regressions and ANOVAs
             </li>
             <li>
-              Created a general Implicit Association Task template to measure
-              the effect of subtle cues on political opinion
+              Created a general Implicit Association Task template to measure the effect of subtle cues on political opinion
             </li>
           </ul>
         </Subsection>
@@ -288,12 +220,10 @@ function App() {
         >
           <ul>
             <li>
-              Expedited scheduling by automating the connection between calendar
-              and patient information
+              Expedited scheduling by automating the connection between calendar and patient information
             </li>
             <li>
-              Familiarized with the uses, functions, and reports of MRI w/ & w/o
-              dye, CT w/ & w/o contrast, EMG, and ultrasound
+              Familiarized with the uses, functions, and reports of MRI w/ & w/o dye, CT w/ & w/o contrast, EMG, and ultrasound
             </li>
           </ul>
         </Subsection>
@@ -303,10 +233,7 @@ function App() {
         >
           <ul>
             <li>
-              Created and implemented an ETL for 28,371 entries of tax and
-              demographics data from the 2010 Census using Python and SPSS, as
-              preparation for the 2012 Statistical Abstract for the Belgrade
-              Lakes Watershed
+              Created and implemented an ETL for 28,371 entries of tax and demographics data from the 2010 Census using Python and SPSS, as preparation for the 2012 Statistical Abstract for the Belgrade Lakes Watershed
             </li>
           </ul>
         </Subsection>
